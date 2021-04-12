@@ -12,6 +12,7 @@ explore: unnest_query {}
 explore: timetravel_query {}
 explore: metadata_query {}
 explore: externaltable_query {}
+explore: wildcard_query {}
 # # Select the views that should be a part of this model,
 # # and define the joins that connect them together.
 
