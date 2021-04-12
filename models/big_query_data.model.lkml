@@ -90,6 +90,7 @@ explore: store_sales {
   }
 }
 
+explore: rls_looker_query {}
 explore: time_dim {}
 
 explore: warehouse {}
