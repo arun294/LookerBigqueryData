@@ -8,7 +8,7 @@ datagroup: big_query_data_default_datagroup {
   max_cache_age: "1 hour"
 }
 explore: rls_looker_query {}
-
+explore: unnest_query {}
 # # Select the views that should be a part of this model,
 # # and define the joins that connect them together.
 
