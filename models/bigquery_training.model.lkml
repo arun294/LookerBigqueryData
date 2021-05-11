@@ -14,7 +14,7 @@ explore: metadata_query {}
 explore: externaltable_query {}
 explore: wildcard_query {}
 explore: ad_campaign_and_sales_wildcard_query {}
-explore: regionsales_wildcard_query {}
+
 # # Select the views that should be a part of this model,
 # # and define the joins that connect them together.
 
