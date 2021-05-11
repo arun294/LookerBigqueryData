@@ -21,22 +21,22 @@ view: ad_campaign_and_sales_wildcard_query {
     sql: ${TABLE}.Region ;;
   }
 
-  dimension: sales {
+  measure: sales {
     type: number
     sql: ${TABLE}.Sales ;;
   }
 
-  dimension: social_networks {
+  measure: social_networks {
     type: number
     sql: ${TABLE}.Social_Networks ;;
   }
 
-  dimension: online_media {
+  measure: online_media {
     type: number
     sql: ${TABLE}.Online_Media ;;
   }
 
-  dimension: print_media {
+  measure: print_media {
     type: number
     sql: ${TABLE}.Print_Media ;;
   }
