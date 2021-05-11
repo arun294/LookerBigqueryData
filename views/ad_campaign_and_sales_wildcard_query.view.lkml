@@ -32,12 +32,12 @@ view: ad_campaign_and_sales_wildcard_query {
   }
 
   measure: online_media {
-    type: number
+    type: sum
     sql: ${TABLE}.Online_Media ;;
   }
 
   measure: print_media {
-    type: number
+    type: sum
     sql: ${TABLE}.Print_Media ;;
   }
 
