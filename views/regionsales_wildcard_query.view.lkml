@@ -14,12 +14,12 @@ view: regionsales_wildcard_query {
     sql: ${TABLE}.region ;;
   }
 
-  measure: sum(sales) {
+  measure: sales {
     type: number
     sql: ${TABLE}.sales ;;
   }
 
   set: detail {
-    fields: [region, sum(sales)]
+    fields: [region, sales]
   }
 }
