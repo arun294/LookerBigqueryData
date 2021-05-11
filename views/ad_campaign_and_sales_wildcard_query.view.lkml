@@ -22,12 +22,12 @@ view: ad_campaign_and_sales_wildcard_query {
   }
 
   measure: sales {
-    type: number
+    type: sum
     sql: ${TABLE}.Sales ;;
   }
 
   measure: social_networks {
-    type: number
+    type: sum
     sql: ${TABLE}.Social_Networks ;;
   }
 
