@@ -7,12 +7,7 @@ datagroup: big_query_data_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
-explore: rls_looker_query {}
-explore: unnest_query {}
-explore: timetravel_query {}
-explore: metadata_query {}
-explore: externaltable_query {}
-explore: wildcard_query {}
+
 explore: ad_campaign_and_sales_wildcard_query {}
 
 # # Select the views that should be a part of this model,
