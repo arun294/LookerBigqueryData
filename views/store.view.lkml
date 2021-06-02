@@ -175,6 +175,7 @@ view: store {
   }
   measure: Employeescount {
     type: sum
+    group_label: "s_state"
     drill_fields: [s_number_employees,s_state]
 
   }
