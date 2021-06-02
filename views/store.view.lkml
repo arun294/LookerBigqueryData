@@ -174,8 +174,7 @@ view: store {
     drill_fields: [s_store_id, s_street_name, s_store_name, s_division_name, s_company_name]
   }
   measure: Employeescount {
-    type: average
-    group_item_label: "s_state"
+    type: count
     drill_fields: [s_number_employees]
 
   }
