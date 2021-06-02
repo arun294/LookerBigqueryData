@@ -175,7 +175,7 @@ view: store {
   }
   measure: Employeescount {
     type: count
-    drill_fields: [s_number_employees,s_state]
+    drill_fields: [s_number_employees,s_state,s_county,s_city]
 
   }
 }
