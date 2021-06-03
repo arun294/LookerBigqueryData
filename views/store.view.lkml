@@ -173,8 +173,8 @@ view: store {
     type: count
     drill_fields: [s_store_id, s_street_name, s_store_name, s_division_name, s_company_name]
   }
-  measure: employeescount {
-    type: sum
+  measure: totalemployees {
+    type: running_total
     drill_fields: [s_number_employees,s_state]
 
   }
